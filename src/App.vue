@@ -3,7 +3,7 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <div>
+  <!-- <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
@@ -11,7 +11,30 @@ import HelloWorld from './components/HelloWorld.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <HelloWorld msg="Vite + Vue" /> -->
+  <div class="p-10 bg-gradient-to-r from-pink-100 to-blue-300 md:flex md:item-center">
+    <img src="/public/image.jpg" alt="Student Image" class="md:w-1/2 m-5 rounded-3xl border border-4 border-solid border-teal-500">
+    <table class="border border-solid border-black m-5">
+      <tr class=" border border-solid border-black text-center">
+        <td colspan="2">Student's Information</td>
+      </tr>
+      <tr class="border border-solid border-black">
+        <td class="p-2 border border-solid border-black">Name: </td>
+        <td class="p-2 border border-solid border-black">Aimuni</td>
+      </tr>
+      <tr class="border border-solid border-black">
+        <td class="p-2 border border-solid border-black">Student ID: </td>
+        <td class="p-2 border border-solid border-black">21FTT1855</td>
+      </tr>
+      <tr class="border border-solid border-black">
+        <td class="p-2 border border-solid border-black">Course: </td>
+        <td class="p-2 border border-solid border-black">Level 5 Diploma in Web Development</td>
+      </tr>
+      <tr class="border border-solid border-black">
+        <td colspan="2" class="p-2 border border-solid border-black">I am a student taking Web Development in Politeknik Brunei!</td>
+      </tr>
+    </table>
+  </div>
 </template>
 
 <style scoped>
