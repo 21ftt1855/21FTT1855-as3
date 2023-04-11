@@ -12,9 +12,9 @@ import HelloWorld from './components/HelloWorld.vue'
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" /> -->
-  <div class="p-10 bg-gradient-to-r from-blue-100 to-violet-300 md:flex md:item-center md:justify-items">
-    <img src="/public/student.jpg" alt="Student Image" class="md:w-2/4 rounded-3xl border border-4 border-solid border-teal-500">
-    <table class="border border-solid border-black m-5">
+  <div class="p-10 m-5 bg-gradient-to-r from-blue-100 to-violet-300 md:flex md:item-center md:justify-items">
+    <img src="/public/student.jpg" alt="Student Image" class="md:w-1/4 rounded-3xl border border-4 border-solid border-teal-500">
+    <table class="border border-solid border-black m-5 p-5">
       <tr class=" border border-solid border-black text-center">
         <td colspan="2">Student's Information</td>
       </tr>
